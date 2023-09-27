@@ -1,0 +1,97 @@
+{
+    "pageTitle": "Pets",
+    "components": [{
+            "type": "featuredImage",
+            "data": {
+                "imageURL": "https://pbs.twimg.com/media/EV2JU88XYAA6ufp.jpg"
+            }
+        },
+        {
+            "type": "featuredImage",
+            "data": {
+                "imageURL": "https://petanjo.com/blog/wp-content/uploads/2021/01/lulu-da-pomerania-2-709x384.jpg"
+            }
+        },
+        {
+            "type": "carousel",
+            "data": {
+                "items": [
+                    {
+                        "petId": 1,
+                        "imageURL": "https://royalpets.vteximg.com.br/arquivos/ids/177603/lulu-da-pomerania-320x250.jpg?v=637523603256400000",
+                        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "rating": 5
+                    },
+                    {
+                        "petId": 2,
+                        "imageURL": "https://www.petz.com.br/cachorro/racas/lulu-da-pomerania/img/lulu-da-pomerania-caracteristicas-guia-racas.webp",
+                        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+                        "rating": 4
+                    },
+                    {
+                        "petId": 3,
+                        "imageURL": "https://filhotes.canillc.com.br/imagens/filhotes-lulus-da-pomerania-brancos-mini.jpg",
+                        "description": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+                        "rating": 4
+                    },
+                    {
+                        "petId": 4,
+                        "imageURL": "https://s2.glbimg.com/0eMgZwXBM4C9cDSC8Yn6baHzLmU=/620x620/smart/e.glbimg.com/og/ed/f/original/2020/11/16/felipeneto_125338605_652244285467561_7480550178302794854_n.jpg",
+                        "description": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+                        "rating": 3
+                    },
+                    {
+                        "petId": 5,
+                        "imageURL": "https://s2-g1.glbimg.com/XcW18gx2KcPASYyqR7CzirRUl5c=/0x0:554x418/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/Z/o/UySK5qT1ODJsEUSFoyIg/whatsapp-image-2022-01-07-at-19.27.15.jpeg",
+                        "description": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
+                        "rating": 3
+                    },
+                    {
+                        "petId": 6,
+                        "imageURL": "https://www.adoropets.com.br/wp-content/uploads/2018/04/preco-lulu-pomerania-360x240.jpg",
+                        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "rating": 4
+                    },
+                    {
+                        "petId": 7,
+                        "imageURL": "https://pm1.aminoapps.com/6669/7a9911fda93f859fe0316aa19cb928851f1f6869_00.jpg",
+                        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+                        "rating": 2
+                    },
+                    {
+                        "petId": 8,
+                        "imageURL": "https://www.adoropets.com.br/wp-content/uploads/2018/04/preco-lulu-pomerania-360x240.jpg",
+                        "description": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+                        "rating": 1
+                    }
+                ],
+                "action": {
+                    "type": "sheet",
+                    "route": "petDetail"
+                }
+            }
+        },
+        {
+            "type": "list",
+            "data": {
+                "rows": [{
+                        "id": 1,
+                        "title": "Fluffy",
+                        "subTitle": "This is a great pet!",
+                        "imageUrl": "https://canilstark.com.br/wp-content/uploads/2021/06/Lulu-da-Pomerania-Branco-Neve.jpeg",
+                        "description": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Barnie",
+                        "subTitle": "This is a great pet!"
+                    }
+                ],
+                "action": {
+                    "type": "push",
+                    "route": "petDetail"
+                }
+            }
+        }
+    ]
+}
